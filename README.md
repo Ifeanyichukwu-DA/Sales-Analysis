@@ -60,3 +60,94 @@ Before diving into analysis, it’s crucial to prepare the data for exploration 
 
 ## Data Modeling
 The relationship diagram below illustrates the interconnectedness of the various data sources and tables within the Adventure Works dataset. In addition to the five tables, I calculated a calendar table to hold dates and related information. This diagram provides a visual representation of how different data elements relate to each other, forming the foundation for our data analysis and modeling efforts.
+
+![](Aw_model.jpg)
+
+## Data Visualization
+Effective data analysis and visualization are essential to uncover meaningful insights and convey them to stakeholders. During the course of this analysis, the visuals were created with each page matching the corresponding color menu icon. 
+The report comprises five pages:
+- Sales Overview
+- Product Performance
+- Sales Channel
+- Customer History
+- Regional Performance
+
+Click [here](https://app.powerbi.com/view?r=eyJrIjoiNjZhODg3ZTUtZjZmMi00MjBmLTgzYmEtYzU2OGUxYmIyNDU2IiwidCI6ImM4N2JkODljLTlmOGMtNDJlNS05NzVkLWQ3ZWYwOWI2OTIxMiJ9) to interact with the dashboard.
+
+![](db1.jpg)
+
+**_Features_**
+
+- There are page navigators at the top of the dashboard, when clicked, redirects to the appropriate page.
+- The Menu button at the top left corner displays tabs that either redirects to Sales Growth, Sales Calendar or Trends.
+- There is a Toggle Button at the top right corner which displays slicers when toggled **ON**.
+
+**_Key Notes_**
+- Lost Customers in this analysis, are defined as customers who did not make any purchase in the last three months.
+- Unsold Products are products that were not sold during the period of the analysis.
+
+## Analysis
+### Sales Overview
+- The key performance indicators have been presented, with the business generating about $110 million in sales and a profit of about $13 million. 
+- North America had the highest Sales followed by Europe and the Pacific respectively.
+
+ **_How can Adventure Works boost its sales revenue by identifying sales channel(s)?_**
+- Resellers accounted for 73.26%  as opposed to 26.74% for internet Sales.
+
+**_Can we see if there’s a wide divergence in sales between 2019 and the previous year?_**
+- Sales increase tremendously in 2019 compared to the previous year (2018). Although sales dropped in February of the previous year.
+---
+
+### Product Performance
+![](db2.jpg)
+- The product performance shows that there are a total of 295 distinct products, with each costing about $438 on average.
+- 10% percent of those products were not sold in that period amounting to $16K.
+
+**_Are there underperforming products or categories that need attention or should be discontinued?_**
+
+- At $4,400,593, Mountain-200 Black, 38 had the highest Sales. The top 5 products all generated sales above $3 million. 
+- Across all bottom 5 products, Sales ranged from $163 to $1,481.
+- Bikes accounted for 86.17% of Sales. Bikes had the highest Sales, followed by Components, Clothing, and Accessories.
+
+---
+
+### Sales Channel
+![](db3.jpg)
+- AdventureWorks made more sales through resellers than they did through the internet.
+- Warehouse Resellers had the highest Sales at $38,726,913, followed by Value Added Resellers at $34,967,517 and Specialty Bike Shop at $6,756,166.
+
+---
+
+### Customer History
+![](db4.jpg)
+- The company had more than 18K customers while losing about 12K.
+- The majority of these customers are located in the United States of America and Australia.
+
+**_Which customers have high or low sales?_**
+- Jordan Turner accounted for 37.39% of Sales.
+- All the bottom, 11 Customers made Sales of $2.
+
+---
+
+### Regional Performance
+![](db5.jpg)
+- The company operates in six countries spread across three continents.
+- The United States of America accounted for the majority of profit with over $4 million made.
+
+**_Which regions have high or low sales?_**
+- At $24,184,610, Southwest had the highest Sales and was 395.76% higher than Germany, which had the lowest Sales at $4,878,300.
+- Southwest accounted for 22.02% of Sales.
+
+## Recommendations
+Based on the analysis, we offer the following recommendations to drive Adventure Works towards data-driven excellence:
+
+- **Segmented Marketing:** Implement targeted marketing campaigns tailored to specific customer segments identified as high-potential like Australia and the United States of America.
+
+- **Product Strategy:** Reevaluate the performance of underperforming products and consider product improvements or discontinuation.
+
+- **Market Expansion:** Explore expansion opportunities in identified untapped markets and regions.
+
+- **Pricing Strategy:** Implement a standard pricing for all products. The price of products should be higher than the cost price.
+
+- **Customer-Centric Approach:** Prioritize customer satisfaction and retention strategies based on customer insights.
+ 
